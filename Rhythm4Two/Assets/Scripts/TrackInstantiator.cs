@@ -5,28 +5,15 @@ using UnityEngine.UI;
 
 public class TrackInstantiator : MonoBehaviour
 {
-
 	public Track track;
 
+	[Header("Track Info")]
 	public Text trackName;
-
-	[System.Serializable]
-	public class Notes
-	{
-		public float time;
-		public GameObject note;
-	}
-
-	public Notes[] notes;
-	private int count = 0;
-
 
 	// Start is called before the first frame update
 	void Start()
     {
-		System.Array.Resize(ref notes, track.markers.Length);
 		trackName.text = track.name;
-
 		StartCoroutine("spawn");
     }
 
@@ -38,13 +25,14 @@ public class TrackInstantiator : MonoBehaviour
 
 	IEnumerator spawn()
 	{
-		yield return new WaitForSeconds(.1f);
+		yield return new WaitForSeconds(track.notes[0].marker);
+		Instantiate(track.notes[0].note);
 
-		foreach (var item in notes)
+		for (int count = 1; count < track.notes.Length; count++)
 		{
-			item.time = track.markers[count];
-			item.note = track.notes[count];
-			count++;
+			yield return new WaitForSeconds(track.notes[count].marker - track.notes[count - 1].marker);
+			if (track.notes[count].note != null)
+				Instantiate(track.notes[count].note);
 		}
 	}
 }

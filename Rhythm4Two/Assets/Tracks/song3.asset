@@ -7,75 +7,75 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1 
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b162fe8fcfe188541bd6ff1c74f2e6f7, type: 3}
   m_Name: song3
   m_EditorClassIdentifier: 
   name: song3
-  FMODEvent: event:/song3
+  FMODEvent: 
   length: 176
   bpm: 76
   notes:
-  - marker: 3.1578947368421053
+  - marker: 1
+    note: {fileID: 4312776708675314630, guid: 4c39a165847db6a40ba24fb165503a47, type: 3}
+  - marker: 2
+    note: {fileID: 7433770230583685936, guid: 7ddb829b4935efa44840df7d3122ed3d, type: 3}
+  - marker: 3
+    note: {fileID: 7433770230583685936, guid: 099e9b3f5f24bd044aa807770f4618fb, type: 3}
+  - marker: 0
     note: {fileID: 0}
-  - marker: 6.315789473684211
+  - marker: 0
     note: {fileID: 0}
-  - marker: 9.473684210526315
+  - marker: 0
     note: {fileID: 0}
-  - marker: 12.631578947368421
+  - marker: 0
     note: {fileID: 0}
-  - marker: 15.789473684210527
+  - marker: 0
     note: {fileID: 0}
-  - marker: 18.947368421052634
+  - marker: 0
     note: {fileID: 0}
-  - marker: 22.105263157894736
+  - marker: 0
     note: {fileID: 0}
-  - marker: 25.341543513957305
+  - marker: 0
     note: {fileID: 0}
-  - marker: 28.49943825079941
+  - marker: 0
     note: {fileID: 0}
-  - marker: 31.657332987641517
+  - marker: 0
     note: {fileID: 0}
-  - marker: 34.81522772448362
+  - marker: 0
     note: {fileID: 0}
-  - marker: 37.97077175697865
+  - marker: 0
     note: {fileID: 0}
-  - marker: 41.12866649382075
+  - marker: 0
     note: {fileID: 0}
-  - marker: 44.28656123066286
+  - marker: 0
     note: {fileID: 0}
-  - marker: 47.444455967504965
+  - marker: 0
     note: {fileID: 0}
-  - marker: 50.599999999999994
+  - marker: 0
     note: {fileID: 0}
-  - marker: 53.7578947368421
+  - marker: 0
     note: {fileID: 0}
-  - marker: 56.91578947368421
+  - marker: 0
     note: {fileID: 0}
-  - marker: 60.07368421052631
+  - marker: 0
     note: {fileID: 0}
-  - marker: 63.22922824302134
+  - marker: 0
     note: {fileID: 0}
-  - marker: 66.38712297986345
+  - marker: 0
     note: {fileID: 0}
-  - marker: 69.54501771670554
+  - marker: 0
     note: {fileID: 0}
-  - marker: 72.70291245354765
+  - marker: 0
     note: {fileID: 0}
-  - marker: 75.85845648604268
+  - marker: 0
     note: {fileID: 0}
-  - marker: 79.0163512228848
+  - marker: 0
     note: {fileID: 0}
-  - marker: 82.17424595972689
+  - marker: 0
     note: {fileID: 0}
-  - marker: 85.332140696569
+  - marker: 0
     note: {fileID: 0}
-  - marker: 88.48768472906403
-    note: {fileID: 0}
-  - marker: 91.64557946590614
-    note: {fileID: 0}
-  - marker: 94.80347420274823
-    note: {fileID: 0}
-  - marker: 97.96136893959034
+  - marker: 0
     note: {fileID: 0}

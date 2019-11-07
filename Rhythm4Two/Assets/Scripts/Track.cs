@@ -12,7 +12,6 @@ public class Track : ScriptableObject
 
     public float length;
 	public int bpm;
-	private float[] markers;
 
 	[System.Serializable]
 	public class Notes

@@ -263,9 +263,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3649564857711878918, guid: 56d8faddeed5d9f49bb171904f4b16c1,
         type: 3}
+      propertyPath: notes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649564857711878918, guid: 56d8faddeed5d9f49bb171904f4b16c1,
+        type: 3}
       propertyPath: trackName
       value: 
       objectReference: {fileID: 2111363868}
+    - target: {fileID: 3649564857711878918, guid: 56d8faddeed5d9f49bb171904f4b16c1,
+        type: 3}
+      propertyPath: track
+      value: 
+      objectReference: {fileID: 11400000, guid: 42ac39763bc691f439984905446338fa,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56d8faddeed5d9f49bb171904f4b16c1, type: 3}
 --- !u!1001 &1834174537
