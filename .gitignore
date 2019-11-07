@@ -47,8 +47,8 @@ Thumbs.db
 # ===============
 *.fmod_editor.log
 *.fmod.log
-Rhythm4Two\fmod\.log
-Rhythm4Two\fmod_editor\.log
+fmod\.log
+fmod_editor\.log
 Rhythm4Two/Assets/StreamingAssets/*.bank
 Rhythm4Two/Assets/StreamingAssets/*.bank.meta
 Rhythm4Two/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset
