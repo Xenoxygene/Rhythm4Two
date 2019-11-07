@@ -7,7 +7,10 @@ public class Track : ScriptableObject
 {
 	public new string name;
 
-	public float length;
+    [FMODUnity.EventRef]
+    public string FMODEvent = null;
+
+    public float length;
 	public int bpm;
 	private float[] markers;
 
@@ -19,6 +22,4 @@ public class Track : ScriptableObject
 	}
 
 	public Notes[] notes;
-
-	public AudioClip audio;
 }
