@@ -14,12 +14,14 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		_main = new GameObject[] { _heart1, _heart2, _lights, _camera, _link, _postProcess };
+		_main = new GameObject[] { _heart1, _heart2, _lights, _camera, _link, _postProcess};
 		foreach (GameObject item in _main)
 		{
 			Instantiate(item);
 		}
     }
+
+
 
     // Update is called once per frame
     void Update()
